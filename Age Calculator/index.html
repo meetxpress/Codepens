@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bit.ly/boot5_css">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-control">
+            <h3 class="text-center">Date of Birth</h3>
+            Month
+            <input type="number" min="1" max="12" maxlength="2" name="day" class="form-control w-25 d-inline"
+                onchange="getCount(2, this.value)">
+
+            Day
+            <input type="number" min="1" max="31" maxlength="2" name="day" class="form-control w-25 d-inline"
+                onchange="getCount(1, this.value)">
+
+            Year
+            <input type="number" min="1" max="2021" maxlength="4" name="day" class="form-control w-25 d-inline"
+                onchange="getCount(3, this.value)">
+            <!-- <button class="btn btn-primary mt-3">Count Age</button> -->
+        </div>
+        <h2>Today, your age is: </h2>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

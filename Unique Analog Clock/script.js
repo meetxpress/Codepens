@@ -1,12 +1,10 @@
 var currentSec = getSecondsToday();
 var sec2;
-var span = document.getElementById('digital');
 
-//For hands, indicators and digital time
 function time() {
 	var d = new Date();
 	var s = d.getSeconds();
-	//span.innerHTML = (("0" + d.getHours()).substr(-2)) + ":" + (("0" + d.getMinutes()).substr(-2)) + ":" + (("0" + s).substr(-2));
+	document.getElementById('digital').innerHTML = (d.getHours() > 12 ? ("0" + d.getHours()).substr(-2) - 12 : ("0" + d.getHours()).substr(-2)) + ":" + (("0" + d.getMinutes()).substr(-2)) + ":" + (("0" + s).substr(-2));
 	sec2 = ("0" + s).substr(-2);
 
 	if (sec2 >= 0 && sec2 < 15) {
@@ -41,10 +39,8 @@ function time() {
 }
 setInterval(time, 1000);
 
-
 var t = new Date().getSeconds();
 var a = (t != 0) ? a = t : 0;
-
 function time2() {
 	var d = new Date();
 	var s = d.getSeconds();
@@ -62,7 +58,6 @@ function time2() {
 }
 setInterval(time2, 1000);
 
-//For Hand Roatation, getting-setting analog time
 var seconds = (currentSec / 60) % 1;
 var minutes = (currentSec / 3600) % 1;
 var hours = (currentSec / 43200) % 1;
