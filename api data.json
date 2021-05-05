@@ -1,0 +1,73 @@
+{
+    "name": "Meet Patel",
+    "About Me": {
+        "first": "I am from Bharuch, India. I am 21 years old innovative and deadline-driven developer. I love to design innovative ideas that come into my mind and try to implement extra skills in the that to improve technical as well as non-technical skills. I have experience in web designing and development, android application development and graphic designing.",
+        "second": "I am a very curious, focused, confident and determined person. I am a quick learner with an always ready to learn attitude. I can also work under pressure. These are my strengths. I am an introvert to unknown people. Therefore the communication with unknown people is hard for me. These are my weaknesses."
+    },
+    "Education": [
+        {
+            "lable": "Post Graduation",
+            "Degree": "Bachelor of Computer Applications",
+            "University": "Charusat",
+            "loc": "Changa, Anand",
+            "year": "2017 to 2020"
+        },
+        {
+            "lable": "High School",
+            "Degree": "11th -12th Commerce",
+            "University": "BAPS Swaminarayan Vidya Mandir",
+            "loc": "Bakrol, Anand",
+            "year": "2015 to 2017"
+        }
+    ],
+    "Projects": [
+        {
+            "id": "project1",
+            "title": "Khushi Estate",
+            "description": "It is a website made for real estate agency to showcase the details regarding properties and its avaibilities. The work has been done on the webiste to learn ablut Bootstrape and AngularJs. It is part of our submission work we were supposed to do in semester 4th of BCA.",
+            "languages": {
+                "l1": "HTML",
+                "l2": "CSS",
+                "l3": "JavaScript",
+                "l4": "Bootstrap",
+                "l5": "ASP.NET",
+                "l6": "Entity Framework"
+            },
+            "duration": "December, 2018 to March, 2019",
+            "info": {
+                "display": "Source Code",
+                "url": "https://github.com/meetxpress/KhushiEstates"
+            }
+        },
+        {
+            "id": "project2",
+            "title": "Ignite'21 ",
+            "description": "aaaaaaaa Cmpica Ignite is a national-level tech fest which is organized by CMPICA, Charusat. Due to the covid-19, the whole event was organized in online mode. The events were handled and executed on this ",
+            "languages": {
+                "l1": "HTML",
+                "l2": "CSS",
+                "l3": "JavaScript",
+                "l4": "Bootstrap"
+            },
+            "duration": "December, 2018 to March, 2019",
+            "info": {
+                "display": "Source Code",
+                "url": "https://github.com/meetxpress/KhushiEstates"
+            }
+        }
+    ],
+    "Contact Me": [
+        {
+            "title": "LinkedIn",
+            "link": "https://linkedin.com/in/meetxpress"
+        },
+        {
+            "title": "Instagram",
+            "link": "https://instagram.com/meetxpress"
+        },
+        {
+            "title": "Github",
+            "link": "https://github.com/meetxpress"
+        }
+    ]
+}
